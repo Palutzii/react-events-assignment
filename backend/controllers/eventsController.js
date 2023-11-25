@@ -20,7 +20,8 @@ export const getEventById = (req, res) => {
     try {
         const eventsData = fs.readFileSync(EVENTS_FILE, 'utf8');
         const events = JSON.parse(eventsData);
-        const event = events.find(e => e.id === Number(req.params.id));
+        const event = events.find(e => e.id === req.params.id);
+
         if (event) {
             res.json(event);
         } else {

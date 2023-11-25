@@ -1,37 +1,64 @@
 [
     {
-        "id": 1,
-        "title": "DreamHack",
-        "date": "2023-11-30",
-        "location": "Jönköping",
-        "description": "The world's largest digital festival"
+        "id": "1",
+        "title": "TechCon 2023",
+        "description": "The ultimate conference for tech enthusiasts, featuring the latest in AI, VR, and software development.",
+        "date": "2023-12-25",
+        "location": "Stockholm Convention Center",
+        "image": "techcon2023.jpg",
+        "isFeatured": true,
+        "interestAreas": [
+            {
+                "area": "Artificial Intelligence",
+                "description": "Explore the latest advancements in AI and machine learning."
+            },
+            {
+                "area": "Virtual Reality",
+                "description": "Dive into virtual worlds with hands-on demonstrations and talks."
+            },
+            {
+                "area": "Software Development",
+                "description": "Learn about new development trends and methodologies."
+            },
+            {
+                "area": "Gaming",
+                "description": "Get a sneak peek at upcoming games and gaming tech."
+            },
+            {
+                "area": "Startups",
+                "description": "Pitch your ideas and meet potential investors."
+            }
+        ]
     },
     {
-        "id": 2,
-        "title": "Comic Con",
-        "date": "2023-12-15",
-        "location": "Gothenburg",
-        "description": "A convention for comic book fans"
-    },
-    {
-        "id": 3,
-        "title": "Kraftwerk",
-        "date": "2024-01-01",
-        "location": "Stockholm",
-        "description": "A German electronic music band formed in 1970"
-    },
-    {
-        "id": 4,
-        "title": "Summerburst",
-        "date": "2024-06-15",
-        "location": "Stockholm",
-        "description": "The biggest EDM festival in Sweden"
-    },
-    {
-        "id": 5,
-        "title": "Way out west",
-        "date": "2024-08-15",
-        "location": "Gothenburg",
-        "description": "A three-day music festival held in Gothenburg"
+        "id": "2",
+        "title": "GameFest 2023",
+        "description": "A celebration of gaming culture, with tournaments, panels, and previews of new games.",
+        "date": "2024-01-24",
+        "location": "Gothenburg Game Arena",
+        "image": "gamefest2023.jpg",
+        "isFeatured": false,
+        "interestAreas": [
+            {
+                "area": "eSports",
+                "description": "Watch top players compete in popular titles."
+            },
+            {
+                "area": "Indie Games",
+                "description": "Discover hidden gems from independent developers."
+            },
+            {
+                "area": "Game Development",
+                "description": "Workshops on game creation and design."
+            },
+            {
+                "area": "Merchandise",
+                "description": "Exclusive merchandise from your favorite games."
+            },
+            {
+                "area": "Cosplay",
+                "description": "Cosplay competition and parade."
+            }
+        ]
     }
 ]

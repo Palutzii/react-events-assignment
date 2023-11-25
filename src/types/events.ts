@@ -6,4 +6,10 @@ export interface IEvent {
     location: string;
     image: string;
     isFeatured: boolean;
+    interestAreas: IInterestArea[];
+}
+
+export interface IInterestArea {
+    area: string;
+    description: string;
 }
