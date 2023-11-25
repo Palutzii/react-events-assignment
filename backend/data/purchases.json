@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Jasmin",
+    "email": "jasminia@bla.se",
+    "tickets": 3,
+    "eventId": 1,
+    "date": "2023-11-25T15:58:52.712Z"
+  },
+  {
+    "id": 2,
+    "name": "pavel",
+    "email": "pav@maio.se",
+    "tickets": 2,
+    "eventId": 5,
+    "date": "2023-11-25T15:59:25.917Z"
+  }
+]

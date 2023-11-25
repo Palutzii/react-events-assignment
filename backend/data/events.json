@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "DreamHack",
+        "date": "2023-11-30",
+        "location": "Jönköping",
+        "description": "The world's largest digital festival"
+    },
+    {
+        "id": 2,
+        "title": "Comic Con",
+        "date": "2023-12-15",
+        "location": "Gothenburg",
+        "description": "A convention for comic book fans"
+    },
+    {
+        "id": 3,
+        "title": "Kraftwerk",
+        "date": "2024-01-01",
+        "location": "Stockholm",
+        "description": "A German electronic music band formed in 1970"
+    },
+    {
+        "id": 4,
+        "title": "Summerburst",
+        "date": "2024-06-15",
+        "location": "Stockholm",
+        "description": "The biggest EDM festival in Sweden"
+    },
+    {
+        "id": 5,
+        "title": "Way out west",
+        "date": "2024-08-15",
+        "location": "Gothenburg",
+        "description": "A three-day music festival held in Gothenburg"
+    }
+]
