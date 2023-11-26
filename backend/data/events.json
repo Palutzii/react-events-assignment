@@ -3,35 +3,125 @@
         "id": 1,
         "title": "DreamHack",
         "date": "2023-11-30",
+        "time": "10:00",
         "location": "Jönköping",
-        "description": "The world's largest digital festival"
+        "description": "The world's largest digital festival",
+        "interestAreas": [
+            {
+                "id": 1,
+                "title": "Gaming",
+                "description": "A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool."
+            },
+            {
+                "id": 2,
+                "title": "E-sport",
+                "description": "Esports is a form of sport competition using video games."
+            },
+            {
+                "id": 3,
+                "title": "Cosplay",
+                "description": "Cosplay, a portmanteau of the words costume play, is an activity and performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character."
+            }
+        ]
     },
     {
         "id": 2,
         "title": "Comic Con",
         "date": "2023-12-15",
+        "time": "12:00",
         "location": "Gothenburg",
-        "description": "A convention for comic book fans"
+        "description": "A convention for comic book fans",
+        "interestAreas": [
+            {
+                "id": 1,
+                "title": "Comics",
+                "description": "A comic book, also called comic magazine or simply comic, is a publication that consists of comics art in the form of sequential juxtaposed panels that represent individual scenes."
+            },
+            {
+                "id": 2,
+                "title": "Anime",
+                "description": "Anime is hand-drawn and computer animation originating from Japan."
+            },
+            {
+                "id": 3,
+                "title": "Manga",
+                "description": "Manga are comics or graphic novels originating from Japan."
+            }
+        ]
     },
     {
         "id": 3,
         "title": "Kraftwerk",
         "date": "2024-01-01",
+        "time": "20:00",
         "location": "Stockholm",
-        "description": "A German electronic music band formed in 1970"
+        "description": "A German electronic music band formed in 1970",
+        "interestAreas": [
+            {
+                "id": 1,
+                "title": "Electronic music",
+                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation."
+            },
+            {
+                "id": 2,
+                "title": "Synthpop",
+                "description": "Synth-pop is a subgenre of new wave music that first became prominent in the late 1970s and features the synthesizer as the dominant musical instrument."
+            },
+            {
+                "id": 3,
+                "title": "Krautrock",
+                "description": "Krautrock is a broad genre of experimental rock that developed in West Germany in the late 1960s and early 1970s among artists who blended psychedelic rock, electronic music, and avant-garde compositional approaches."
+            }
+        ]
     },
     {
         "id": 4,
         "title": "Summerburst",
         "date": "2024-06-15",
+        "time": "12:00",
         "location": "Stockholm",
-        "description": "The biggest EDM festival in Sweden"
+        "description": "The biggest EDM festival in Sweden",
+        "interestAreas": [
+            {
+                "id": 1,
+                "title": "Electronic music",
+                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation."
+            },
+            {
+                "id": 2,
+                "title": "EDM",
+                "description": "Electronic dance music is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals."
+            },
+            {
+                "id": 3,
+                "title": "House",
+                "description": "House is a genre of electronic dance music characterized by a repetitive four on the floor beat and a tempo of 120 to 130 beats per minute."
+            }
+        ]
     },
     {
         "id": 5,
         "title": "Way out west",
         "date": "2024-08-15",
+        "time": "12:00",
         "location": "Gothenburg",
-        "description": "A three-day music festival held in Gothenburg"
+        "description": "A three-day music festival held in Gothenburg",
+        "interestAreas": [
+            {
+                "id": 1,
+                "title": "Rock",
+                "description": "Rock music is a broad genre of popular music that originated as 'rock and roll' in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later."
+            },
+            {
+                "id": 2,
+                "title": "Pop",
+                "description": "Pop is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom."
+            },
+            {
+                "id": 3,
+                "title": "Hip hop",
+                "description": "Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino Americans and Caribbean Americans in the Bronx, New York City."
+            }
+        ]
     }
 ]

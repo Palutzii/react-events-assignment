@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import { IEvent } from "@/types/events";
+import Link from "next/link";
 
 
 const EventDetailPage = () => {
@@ -79,6 +80,8 @@ const EventDetailPage = () => {
                 <p>Date: {event.date}</p>
                 <p>Location: {event.location}</p>
                 <p>{event.description}</p>
+
+                <Link href={`/events/${event.id}/interestAreas`} passHref>Explore Interest Areas</Link>
 
                 <form onSubmit={handlePurchase}>
                     <h2>Purchase Tickets</h2>

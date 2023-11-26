@@ -34,6 +34,7 @@ const EventsPage = () => {
                                     <li key={event.id}>
                                         <h2>{event.title}</h2>
                                         <p>Date: {event.date}</p>
+                                        <p>Time: {event.time}</p>
                                         <p>Location: {event.location}</p>
                                         <Link href={`/events/${event.id}`}>View Event</Link>
                                     </li>

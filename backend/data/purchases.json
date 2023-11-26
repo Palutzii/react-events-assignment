@@ -3,16 +3,8 @@
     "id": 1,
     "name": "Pavel Sarmiento",
     "email": "pavelsarmiento@hotmail.com",
-    "tickets": 2,
+    "tickets": 5,
     "eventId": 2,
-    "date": "2023-11-25T16:45:35.918Z"
-  },
-  {
-    "id": 2,
-    "name": "jasmin",
-    "email": "gork@gorker.se",
-    "tickets": 4,
-    "eventId": 4,
-    "date": "2023-11-25T16:46:20.105Z"
+    "date": "2023-11-26T00:01:17.920Z"
   }
 ]
