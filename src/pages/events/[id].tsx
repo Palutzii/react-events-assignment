@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import { IEvent } from "@/types/events";
 import Link from "next/link";
+import styles from '@/styles/eventDetail.module.css';
 
 
 const EventDetailPage = () => {
@@ -76,53 +77,64 @@ const EventDetailPage = () => {
 
     return (
             <Layout>
-                <h1>{event.title}</h1>
-                <p>Date: {event.date}</p>
-                <p>Location: {event.location}</p>
-                <p>{event.description}</p>
+                <div className={styles.eventDetailContainer}>
+                    <Link className={styles.link} href="/" passHref>Back to Events</Link>
 
-                <Link href={`/events/${event.id}/interestAreas`} passHref>Explore Interest Areas</Link>
+                    <div className={styles.infoContainer}>
+                        <h1>{event.title}</h1>
+                        <p>Date: {event.date}</p>
+                        <p>Starts: {event.time}</p>
+                        <p>Location: {event.location}</p>
+                        <p>{event.description}</p>
+                        <Link className={styles.link} href={`/events/${event.id}/interestAreas`} passHref>Explore Interest Areas</Link>
+                    </div>
 
-                <form onSubmit={handlePurchase}>
-                    <h2>Purchase Tickets</h2>
-                    <label htmlFor="name">Name</label>
-                    <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            placeholder="Full Name"
-                            required
-                    />
-                    <label htmlFor="email">Email</label>
-                    <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            placeholder="Email Address"
-                            required
-                    />
-                    <label htmlFor="tickets">Ticket Quantity</label>
-                    <input
-                            type="number"
-                            id="tickets"
-                            name="tickets"
-                            value={ticketQuantity}
-                            onChange={ (e) => setTicketQuantity(Number(e.target.value))}
-                            min="1"
-                            required
-                    />
-                    <button type="submit">Purchase</button>
-                </form>
+                    <form className={styles.form} onSubmit={handlePurchase}>
+                        <h2>Reserve your free tickets</h2>
+                        <label htmlFor="name">Name</label>
+                        <input
+                                className={styles.input}
+                                type="text"
+                                id="name"
+                                name="name"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                placeholder="Full Name"
+                                required
+                        />
+                        <label htmlFor="email">Email</label>
+                        <input
+                                className={styles.input}
+                                type="email"
+                                id="email"
+                                name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                placeholder="Email Address"
+                                required
+                        />
+                        <label htmlFor="tickets">Ticket Quantity</label>
+                        <input
+                                className={styles.input}
+                                type="number"
+                                id="tickets"
+                                name="tickets"
+                                value={ticketQuantity}
+                                onChange={ (e) => setTicketQuantity(Number(e.target.value))}
+                                min="1"
+                                required
+                        />
+                        <button className={styles.btn} type="submit">Purchase</button>
+                    </form>
 
-                {purchaseStatus.status !== 'idle' && (
-                        <div className={purchaseStatus.status === 'error' ? 'error' : 'success'}>
-                            {purchaseStatus.message}
-                        </div>
-                )}
+                    {purchaseStatus.status !== 'idle' && (
+                            <div className={purchaseStatus.status === "error" ? styles.error : styles.success}>
+                                {purchaseStatus.message}
+                            </div>
+                    )}
+
+                </div>
+
             </Layout>
     );
 };

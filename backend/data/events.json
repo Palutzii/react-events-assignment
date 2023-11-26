@@ -10,17 +10,23 @@
             {
                 "id": 1,
                 "title": "Gaming",
-                "description": "A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool."
+                "description": "A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool.",
+                "section": "A1",
+                "time": "10:00"
             },
             {
                 "id": 2,
                 "title": "E-sport",
-                "description": "Esports is a form of sport competition using video games."
+                "description": "Esports is a form of sport competition using video games.",
+                "section": "B2",
+                "time": "10:00"
             },
             {
                 "id": 3,
                 "title": "Cosplay",
-                "description": "Cosplay, a portmanteau of the words costume play, is an activity and performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character."
+                "description": "Cosplay, a portmanteau of the words costume play, is an activity and performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character.",
+                "section": "C3",
+                "time": "15:00"
             }
         ]
     },
@@ -35,17 +41,23 @@
             {
                 "id": 1,
                 "title": "Comics",
-                "description": "A comic book, also called comic magazine or simply comic, is a publication that consists of comics art in the form of sequential juxtaposed panels that represent individual scenes."
+                "description": "A comic book, also called comic magazine or simply comic, is a publication that consists of comics art in the form of sequential juxtaposed panels that represent individual scenes.",
+                "section": "A1",
+                "time": "12:00"
             },
             {
                 "id": 2,
                 "title": "Anime",
-                "description": "Anime is hand-drawn and computer animation originating from Japan."
+                "description": "Anime is hand-drawn and computer animation originating from Japan.",
+                "section": "B2",
+                "time": "12:00"
             },
             {
                 "id": 3,
                 "title": "Manga",
-                "description": "Manga are comics or graphic novels originating from Japan."
+                "description": "Manga are comics or graphic novels originating from Japan.",
+                "section": "C3",
+                "time": "17:00"
             }
         ]
     },
@@ -60,17 +72,23 @@
             {
                 "id": 1,
                 "title": "Electronic music",
-                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation."
+                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation.",
+                "section": "A1",
+                "time": "20:00"
             },
             {
                 "id": 2,
                 "title": "Synthpop",
-                "description": "Synth-pop is a subgenre of new wave music that first became prominent in the late 1970s and features the synthesizer as the dominant musical instrument."
+                "description": "Synth-pop is a subgenre of new wave music that first became prominent in the late 1970s and features the synthesizer as the dominant musical instrument.",
+                "section": "B2",
+                "time": "20:00"
             },
             {
                 "id": 3,
                 "title": "Krautrock",
-                "description": "Krautrock is a broad genre of experimental rock that developed in West Germany in the late 1960s and early 1970s among artists who blended psychedelic rock, electronic music, and avant-garde compositional approaches."
+                "description": "Krautrock is a broad genre of experimental rock that developed in West Germany in the late 1960s and early 1970s among artists who blended psychedelic rock, electronic music, and avant-garde compositional approaches.",
+                "section": "C3",
+                "time": "20:00"
             }
         ]
     },
@@ -85,17 +103,23 @@
             {
                 "id": 1,
                 "title": "Electronic music",
-                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation."
+                "description": "Electronic music is music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation.",
+                "section": "D2",
+                "time": "12:00"
             },
             {
                 "id": 2,
                 "title": "EDM",
-                "description": "Electronic dance music is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals."
+                "description": "Electronic dance music is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals.",
+                "section": "A5",
+                "time": "12:00"
             },
             {
                 "id": 3,
                 "title": "House",
-                "description": "House is a genre of electronic dance music characterized by a repetitive four on the floor beat and a tempo of 120 to 130 beats per minute."
+                "description": "House is a genre of electronic dance music characterized by a repetitive four on the floor beat and a tempo of 120 to 130 beats per minute.",
+                "section": "C1",
+                "time": "17:00"
             }
         ]
     },
@@ -110,17 +134,23 @@
             {
                 "id": 1,
                 "title": "Rock",
-                "description": "Rock music is a broad genre of popular music that originated as 'rock and roll' in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later."
+                "description": "Rock music is a broad genre of popular music that originated as 'rock and roll' in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later.",
+                "section": "A1",
+                "time": "12:00"
             },
             {
                 "id": 2,
                 "title": "Pop",
-                "description": "Pop is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom."
+                "description": "Pop is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom.",
+                "section": "B2",
+                "time": "12:00"
             },
             {
                 "id": 3,
                 "title": "Hip hop",
-                "description": "Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino Americans and Caribbean Americans in the Bronx, New York City."
+                "description": "Hip hop or hip-hop is a culture and art movement that was created by African Americans, Latino Americans and Caribbean Americans in the Bronx, New York City.",
+                "section": "C3",
+                "time": "17:00"
             }
         ]
     }

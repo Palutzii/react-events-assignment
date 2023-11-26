@@ -13,4 +13,6 @@ export interface IInterestAreas {
     id: number;
     title: string;
     description: string;
+    section: string;
+    time: string;
 }

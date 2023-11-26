@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: solid 2px #0D47A1;
+}
+
+.title {
+    color: #0D47A1;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    text-decoration: none;
+    color: #0D47A1;
+    font-weight: 700;
+}

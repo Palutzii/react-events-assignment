@@ -1,15 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import styles from "../styles/Header.module.css";
+import styles from "../styles/header.module.css";
 
 const Header = () => {
     return (
-            <header className="header">
-                <h1 className="header-title">Event Booker</h1>
-                <nav className="header-nav">
-                    <Link className="header-nav-item" href="/">Home</Link>
-                    <Link className="header-nav-item" href="/events">Events</Link>
-                    <Link className="header-nav-item" href="/tickets">Buy tickets</Link>
+            <header className={styles.header}>
+                <h1 className={styles.title}>Event Booker</h1>
+                <nav className={styles.nav} >
+                    <Link className={styles.navItem} href="/">Home</Link>
                 </nav>
             </header>
     );
